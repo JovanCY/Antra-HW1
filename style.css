@@ -1,0 +1,49 @@
+html {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#main-form{
+   display: flex;
+   flex-direction: column;
+   width: auto;
+   padding: 10px;
+   align-items: center;
+}
+
+input {
+   width: 40rem;
+   margin: 0.2rem;
+   padding: 0.3rem;
+   border-radius: 3px;
+   box-shadow: none;
+}
+
+input.half {
+   width: 19.3rem;
+}
+
+button {
+   border: 0;
+   width: 19.3rem;
+   padding: 0.3rem;
+   margin: 0.2rem;
+   border-radius: 3px;
+}
+
+.check-box {
+   width: min-content;
+}
+
+.blue {
+   background-color: dodgerblue;
+}
+
+.green {
+   background-color: rgb(102, 157, 102);
+}
+
+.agree-row {
+   display: flex;
+   align-items: start;
+}
