@@ -9,60 +9,62 @@
   <body>
     <form id="main-form">
       <h1>Sign Up</h1>
-      <div>
-        <span>
-          <input
-            class="half"
-            type="text"
-            name="first-name"
-            id="input-first-name"
-            placeholder="First Name"
-          />
-        </span>
-        <span>
-          <input
-            class="half"
-            type="text"
-            name="last-name"
-            id="input-last-name"
-            placeholder="Last Name"
-          />
-        </span>
+      <div class="half-container">
+        <input
+          class="half"
+          type="text"
+          name="first-name"
+          id="input-first-name"
+          placeholder="First Name"
+        />
+        <input
+          class="half"
+          type="text"
+          name="last-name"
+          id="input-last-name"
+          placeholder="Last Name"
+        />
       </div>
-      <input type="text" placeholder="Mobile No." />
+      <input class="full" type="text" placeholder="Mobile No." />
+
       <input type="text" placeholder="Email Address" />
-      <div>
-        <span>
-          <input
-            class="half"
-            type="text"
-            name="first-name"
-            id="input-first-name"
-            placeholder="Password"
-          />
-        </span>
-        <span>
-          <input
-            class="half"
-            type="text"
-            name="last-name"
-            id="input-last-name"
-            placeholder="Confirm"
-          />
-        </span>
+      <div class="half-container">
+        <input
+          class="half"
+          type="text"
+          name="first-name"
+          id="input-first-name"
+          placeholder="Password"
+        />
+
+        <input
+          class="half"
+          type="text"
+          name="last-name"
+          id="input-last-name"
+          placeholder="Confirm"
+        />
       </div>
       <div class="agree-row">
-        <span>
-          <input class="check-box" type="checkbox" placeholder="" name="agree" id="agree" />
+        <div class="box">
+          <input
+            class="check-box"
+            type="checkbox"
+            placeholder=""
+            name="agree"
+            id="agree"
+          />
           <label for="agree"> I Agree</label>
-        </span>
+        </div>
 
-        <span class="">
-
-        </span>
+        <div class="agree-text">
+          By clicking <span class="blue"> Register </span>, you agree to the
+          <a href="#">Terms and Conditions</a> set out by this side, including
+          our Cookie use
+        </div>
       </div>
 
-      <div>
+      <div class="half-container">
         <button class="blue">Register</button>
         <button class="green">Sign in</button>
       </div>

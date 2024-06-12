@@ -3,31 +3,58 @@ html {
 
 }
 
-#main-form{
+* {
+   box-sizing: border-box;
+}
+
+
+
+#main-form {
    display: flex;
    flex-direction: column;
-   width: auto;
+   width: calc(40rem + 20px);
    padding: 10px;
-   align-items: center;
+   align-items: start;
+   align-self: center;
+   margin-left: 25%;
+
+}
+
+h1 {
+   align-self: center;
+}
+
+a {
+   text-decoration: none;
 }
 
 input {
-   width: 40rem;
-   margin: 0.2rem;
-   padding: 0.3rem;
+   flex-grow: 1;
+   flex-shrink: 0;
+   width: 633px;
+   margin: 6px;
+   padding: 10px;
    border-radius: 3px;
    box-shadow: none;
+   border-style: solid;
 }
 
-input.half {
-   width: 19.3rem;
+.half-container {
+   width: 640px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.half {
+   flex-grow: 1;
+   width: 308px;
 }
 
 button {
    border: 0;
-   width: 19.3rem;
-   padding: 0.3rem;
-   margin: 0.2rem;
+   width: 308px;
+   margin: 6px;
+   padding: 10px;
    border-radius: 3px;
 }
 
@@ -36,14 +63,33 @@ button {
 }
 
 .blue {
-   background-color: dodgerblue;
+   background-color: #428BCA;
+   border-radius: 3px;
 }
 
 .green {
-   background-color: rgb(102, 157, 102);
+   background-color: #5CB85C;
 }
 
 .agree-row {
    display: flex;
-   align-items: start;
+   align-items: center;
+   justify-content: space-between;
+   width: 640px;
+}
+
+.agree-row .box {
+   width: 10%;
+   text-wrap: nowrap;
+}
+
+.agree-text {
+   width: 80%;
+   text-wrap: wrap;
+
+}
+
+.input-container {
+   display: flex;
+   flex-direction: row;
 }
